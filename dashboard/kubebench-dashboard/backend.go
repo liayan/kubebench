@@ -8,12 +8,12 @@ import (
 
 	argoproj "github.com/argoproj/argo/pkg/client/clientset/versioned/typed/workflow/v1alpha1"
 	"github.com/ghodss/yaml"
-	kbjob "github.com/kubeflow/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1"
-	kubeclient "github.com/kubeflow/kubebench/controller/pkg/client"
-	kubebenchjobclientset "github.com/kubeflow/kubebench/controller/pkg/client/clientset/versioned"
-	kubebench "github.com/kubeflow/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1"
-	"github.com/kubeflow/kubebench/controller/pkg/util"
-	utils "github.com/kubeflow/kubebench/controller/pkg/util"
+	kbjob "github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1"
+	kubeclient "github.com/liayan/kubebench/controller/pkg/client"
+	kubebenchjobclientset "github.com/liayan/kubebench/controller/pkg/client/clientset/versioned"
+	kubebench "github.com/liayan/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1"
+	"github.com/liayan/kubebench/controller/pkg/util"
+	utils "github.com/liayan/kubebench/controller/pkg/util"
 	log "github.com/sirupsen/logrus"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
@@ -98,7 +98,7 @@ func main() {
 
 	kubebenchJobs = kbJobClient.KubebenchJobs("default")
 
-	frontend := http.FileServer(http.Dir("/go/src/github.com/kubeflow/kubebench/dashboard/kubebench-dashboard/frontend/build/"))
+	frontend := http.FileServer(http.Dir("/go/src/github.com/liayan/kubebench/dashboard/kubebench-dashboard/frontend/build/"))
 	http.Handle("/dashboard/", http.StripPrefix("/dashboard/", frontend))
 	// http.HandleFunc("/", mainHandler)
 	http.HandleFunc("/dashboard/submit_yaml/", submitYamlHandler)
