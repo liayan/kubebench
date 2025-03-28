@@ -15,7 +15,7 @@ package condition
 import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	"github.com/kubeflow/kubebench/controller/pkg/resource/common"
+	"github.com/liayan/kubebench/controller/pkg/resource/common"
 )
 
 var supportedResourceConditions = map[string]ResourceConditionInterface{

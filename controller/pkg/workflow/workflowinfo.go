@@ -19,12 +19,12 @@ import (
 	"time"
 
 	argov1alpha1 "github.com/argoproj/argo/pkg/apis/workflow/v1alpha1"
-	kbjobv1alpha2 "github.com/kubeflow/kubebench/controller/pkg/apis/kubebenchjob/v1alpha2"
-	"github.com/kubeflow/kubebench/controller/pkg/util"
+	kbjobv1alpha2 "github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha2"
+	"github.com/liayan/kubebench/controller/pkg/util"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/kubeflow/kubebench/controller/pkg/constants"
+	"github.com/liayan/kubebench/controller/pkg/constants"
 )
 
 type workflowInfo struct {

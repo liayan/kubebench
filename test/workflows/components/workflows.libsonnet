@@ -44,7 +44,7 @@
       local artifactsDir = outputDir + "/artifacts";
       // Source directory where all repos should be checked out
       local srcRootDir = testDir + "/src";
-      local srcDir = srcRootDir + "/kubeflow/kubebench";
+      local srcDir = srcRootDir + "/liayan/kubebench";
       // The directory containing the py scripts for testing
       local srcTestPyDir = srcDir + "/test/py";
       // The directory within the kubeflow_testing submodule containing

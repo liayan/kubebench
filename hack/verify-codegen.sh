@@ -15,7 +15,7 @@
 # limitations under the License.
 
 SCRIPT_DIR=$(dirname $0)
-ROOT_PKG="github.com/kubeflow/kubebench"
+ROOT_PKG="github.com/liayan/kubebench"
 DIFFROOT="$GOPATH/src/$ROOT_PKG/controller/pkg"
 TMP_DIFFROOT=$(mktemp -d tmp.pkg.XXXX)
 

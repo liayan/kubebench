@@ -17,7 +17,7 @@
 export GO111MODULE=on
 
 SCRIPT_DIR=$(dirname $0)
-ROOT_PKG="github.com/kubeflow/kubebench"
+ROOT_PKG="github.com/liayan/kubebench"
 CODEGEN_PKG="k8s.io/code-generator"
 CODEGEN_VERSION=$(awk '/k8s.io\/code-generator/ {print $2}' $GOPATH/src/$ROOT_PKG/go.mod)
 CODEGEN_PATH="$GOPATH/pkg/mod/$CODEGEN_PKG@$CODEGEN_VERSION"

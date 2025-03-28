@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	workflow_v1 "github.com/argoproj/argo/pkg/apis/workflow/v1alpha1"
-	kubebenchjob "github.com/kubeflow/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1"
+	kubebenchjob "github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1"
 	apiv1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
@@ -456,7 +456,7 @@ func GenerateJobFromParameters(parameters map[string]string) (job *kubebenchjob.
 	if parameters["mainJobKsPackage"] != "" {
 		mainJobKsPackage = parameters["mainJobKsPackage"]
 	}
-	mainJobKsRegistry := "github.com/kubeflow/kubebench/tree/master/kubebench"
+	mainJobKsRegistry := "github.com/liayan/kubebenchree/master/kubebench"
 	if parameters["mainJobKsPrototype"] != "" {
 		mainJobKsRegistry = parameters["mainJobKsRegistry"]
 	}

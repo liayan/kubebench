@@ -19,10 +19,10 @@ package v1alpha1
 import (
 	time "time"
 
-	kubebenchjobv1alpha1 "github.com/kubeflow/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1"
-	versioned "github.com/kubeflow/kubebench/controller/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/kubeflow/kubebench/controller/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/kubeflow/kubebench/controller/pkg/client/listers/kubebenchjob/v1alpha1"
+	kubebenchjobv1alpha1 "github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1"
+	versioned "github.com/liayan/kubebench/controller/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/liayan/kubebench/controller/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/liayan/kubebench/controller/pkg/client/listers/kubebenchjob/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

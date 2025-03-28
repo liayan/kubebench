@@ -1,0 +1,10 @@
+# service.yaml (must be in resources list)
+apiVersion: v1
+kind: Service
+metadata:
+  name: kubebench-service  # Exact match
+spec:
+  ports:
+    - port: 80
+  selector:
+    app: kubebench-operator

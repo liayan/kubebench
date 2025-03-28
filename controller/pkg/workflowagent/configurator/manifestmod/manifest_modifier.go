@@ -20,9 +20,9 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime/serializer/json"
 
-	resmod "github.com/kubeflow/kubebench/controller/pkg/resource/mod"
-	"github.com/kubeflow/kubebench/controller/pkg/util"
-	"github.com/kubeflow/kubebench/controller/pkg/workflowagent/configurator/common"
+	resmod "github.com/liayan/kubebench/controller/pkg/resource/mod"
+	"github.com/liayan/kubebench/controller/pkg/util"
+	"github.com/liayan/kubebench/controller/pkg/workflowagent/configurator/common"
 )
 
 type ManifestModifier struct {

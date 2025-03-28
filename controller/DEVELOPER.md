@@ -11,9 +11,9 @@ Kubebench-operator is a typical controller. A simple one can be found [here](htt
 In order to run it locally do the following commands:
 
 ```bash
-go get -u github.com/kubeflow/kubebench/controller/kubebench-operator
+go get -u github.com/liayan/kubebench/controller/kubebench-operator
 
-cd $GOPATH/github.com/kubeflow/kubebench/controller/kubebench-operator
+cd $GOPATH/github.com/liayan/kubebench/controller/kubebench-operator
 
 dep ensure 
 ```

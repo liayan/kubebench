@@ -11,7 +11,7 @@ services:
 go:
   - "1.10"
 
-go_import_path: github.com/kubeflow/kubebench
+go_import_path: github.com/liayan/kubebench
 
 install:
   - go get -u github.com/golang/lint/golint

@@ -8,8 +8,8 @@ import (
 	argoproj "github.com/argoproj/argo/pkg/client/clientset/versioned/typed/workflow/v1alpha1"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/kubeflow/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1"
-	workflowUtils "github.com/kubeflow/kubebench/controller/pkg/util"
+	"github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1"
+	workflowUtils "github.com/liayan/kubebench/controller/pkg/util"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"

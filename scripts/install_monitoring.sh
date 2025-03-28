@@ -3,7 +3,7 @@
 KB_VERSION=${KB_VERSION:-master}
 KF_ENV=${KF_ENV:-default}
 
-ks registry add kubebench github.com/kubeflow/kubebench/tree/${KB_VERSION}/kubebench
+ks registry add kubebench github.com/liayan/kubebench/tree/${KB_VERSION}/kubebench
 ks registry add kubeflow github.com/kubeflow/kubeflow/tree/master/kubeflow
 
 ks pkg install kubeflow/core

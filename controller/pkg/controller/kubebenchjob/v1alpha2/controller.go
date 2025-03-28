@@ -32,12 +32,12 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/workqueue"
 
-	kbjobv1alpha2 "github.com/kubeflow/kubebench/controller/pkg/apis/kubebenchjob/v1alpha2"
-	kbjobclientset "github.com/kubeflow/kubebench/controller/pkg/client/clientset/versioned"
-	kbjobscheme "github.com/kubeflow/kubebench/controller/pkg/client/clientset/versioned/scheme"
-	kbjobinformer "github.com/kubeflow/kubebench/controller/pkg/client/informers/externalversions/kubebenchjob/v1alpha2"
-	kbjoblister "github.com/kubeflow/kubebench/controller/pkg/client/listers/kubebenchjob/v1alpha2"
-	kbworkflow "github.com/kubeflow/kubebench/controller/pkg/workflow"
+	kbjobv1alpha2 "github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha2"
+	kbjobclientset "github.com/liayan/kubebench/controller/pkg/client/clientset/versioned"
+	kbjobscheme "github.com/liayan/kubebench/controller/pkg/client/clientset/versioned/scheme"
+	kbjobinformer "github.com/liayan/kubebench/controller/pkg/client/informers/externalversions/kubebenchjob/v1alpha2"
+	kbjoblister "github.com/liayan/kubebench/controller/pkg/client/listers/kubebenchjob/v1alpha2"
+	kbworkflow "github.com/liayan/kubebench/controller/pkg/workflow"
 )
 
 const (

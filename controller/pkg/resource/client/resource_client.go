@@ -25,8 +25,8 @@ import (
 	"k8s.io/client-go/dynamic"
 	"k8s.io/client-go/rest"
 
-	"github.com/kubeflow/kubebench/controller/pkg/resource/common"
-	"github.com/kubeflow/kubebench/controller/pkg/resource/condition"
+	"github.com/liayan/kubebench/controller/pkg/resource/common"
+	"github.com/liayan/kubebench/controller/pkg/resource/condition"
 )
 
 // ResourceClient interacts with the cluster and performs resource operations

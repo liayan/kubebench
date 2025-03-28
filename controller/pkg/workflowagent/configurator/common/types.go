@@ -15,9 +15,9 @@
 package common
 
 import (
-	"github.com/kubeflow/kubebench/controller/pkg/resource/mod"
+	"github.com/liayan/kubebench/controller/pkg/resource/mod"
 
-	"github.com/kubeflow/kubebench/controller/pkg/apis/kubebenchjob/v1alpha2"
+	"github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha2"
 )
 
 // ConfiguratorInput is the specification of configurator input

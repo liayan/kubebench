@@ -1,0 +1,46 @@
+../../../pkg/client/kube.go:12:2: missing go.sum entry for module providing package github.com/argoproj/argo/pkg/client/clientset/versioned/typed/workflow/v1alpha1 (imported by github.com/liayan/kubebench/controller/pkg/client); to add:
+	go get github.com/liayan/kubebench/controller/pkg/client
+../../../pkg/apis/kubebenchjob/v1alpha1/types.go:18:2: missing go.sum entry for module providing package k8s.io/api/core/v1 (imported by github.com/liayan/kubebench/controller/pkg/util); to add:
+	go get github.com/liayan/kubebench/controller/pkg/util
+../../../pkg/apis/kubebenchjob/v1alpha1/resgiter.go:18:2: missing go.sum entry for module providing package k8s.io/apimachinery/pkg/apis/meta/v1 (imported by github.com/liayan/kubebench/controller/pkg/controller/kubebenchjob/v1alpha1); to add:
+	go get github.com/liayan/kubebench/controller/pkg/controller/kubebenchjob/v1alpha1
+../../../pkg/apis/kubebenchjob/v1alpha1/resgiter.go:19:2: missing go.sum entry for module providing package k8s.io/apimachinery/pkg/runtime (imported by github.com/liayan/kubebench/controller/pkg/util); to add:
+	go get github.com/liayan/kubebench/controller/pkg/util
+../../../pkg/apis/kubebenchjob/v1alpha1/resgiter.go:20:2: missing go.sum entry for module providing package k8s.io/apimachinery/pkg/runtime/schema (imported by github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1); to add:
+	go get github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1
+../../../pkg/apis/kubebenchjob/v1alpha2/types.go:18:2: missing go.sum entry for module providing package github.com/argoproj/argo/pkg/apis/workflow/v1alpha1 (imported by github.com/liayan/kubebench/controller/pkg/util); to add:
+	go get github.com/liayan/kubebench/controller/pkg/util
+../../../pkg/client/clientset/versioned/scheme/register.go:25:2: missing go.sum entry for module providing package k8s.io/apimachinery/pkg/runtime/serializer (imported by github.com/liayan/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1); to add:
+	go get github.com/liayan/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1
+../../../pkg/client/clientset/versioned/scheme/register.go:26:2: missing go.sum entry for module providing package k8s.io/apimachinery/pkg/util/runtime (imported by github.com/liayan/kubebench/controller/pkg/controller/kubebenchjob/v1alpha1); to add:
+	go get github.com/liayan/kubebench/controller/pkg/controller/kubebenchjob/v1alpha1
+../../../pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1/kubebenchjob.go:23:2: missing go.sum entry for module providing package k8s.io/apimachinery/pkg/types (imported by github.com/liayan/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1); to add:
+	go get github.com/liayan/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1
+../../../pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1/kubebenchjob.go:24:2: missing go.sum entry for module providing package k8s.io/apimachinery/pkg/watch (imported by github.com/liayan/kubebench/controller/pkg/util); to add:
+	go get github.com/liayan/kubebench/controller/pkg/util
+../../../pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1/kubebenchjob.go:25:2: missing go.sum entry for module providing package k8s.io/client-go/rest (imported by github.com/liayan/kubebench/controller/pkg/client); to add:
+	go get github.com/liayan/kubebench/controller/pkg/client
+../../../pkg/client/clientset/versioned/clientset.go:22:2: missing go.sum entry for module providing package k8s.io/client-go/discovery (imported by github.com/liayan/kubebench/controller/pkg/client/clientset/versioned); to add:
+	go get github.com/liayan/kubebench/controller/pkg/client/clientset/versioned
+../../../pkg/client/clientset/versioned/clientset.go:24:2: missing go.sum entry for module providing package k8s.io/client-go/util/flowcontrol (imported by github.com/liayan/kubebench/controller/pkg/client/clientset/versioned); to add:
+	go get github.com/liayan/kubebench/controller/pkg/client/clientset/versioned
+../../../pkg/client/kube.go:7:2: missing go.sum entry for module providing package github.com/sirupsen/logrus; to add:
+	go mod download github.com/sirupsen/logrus
+../../../pkg/client/kube.go:8:2: missing go.sum entry for module providing package k8s.io/client-go/kubernetes (imported by github.com/liayan/kubebench/controller/pkg/client); to add:
+	go get github.com/liayan/kubebench/controller/pkg/client
+../../../pkg/client/kube.go:10:2: missing go.sum entry for module providing package k8s.io/client-go/tools/clientcmd (imported by github.com/liayan/kubebench/controller/pkg/client); to add:
+	go get github.com/liayan/kubebench/controller/pkg/client
+../../../pkg/client/informers/externalversions/internalinterfaces/factory_interfaces.go:25:2: missing go.sum entry for module providing package k8s.io/client-go/tools/cache (imported by github.com/liayan/kubebench/controller/pkg/controller/kubebenchjob/v1alpha1); to add:
+	go get github.com/liayan/kubebench/controller/pkg/controller/kubebenchjob/v1alpha1
+../../../pkg/client/listers/kubebenchjob/v1alpha1/kubebenchjob.go:21:2: missing go.sum entry for module providing package k8s.io/apimachinery/pkg/api/errors (imported by github.com/liayan/kubebench/controller/pkg/client/listers/kubebenchjob/v1alpha1); to add:
+	go get github.com/liayan/kubebench/controller/pkg/client/listers/kubebenchjob/v1alpha1
+../../../pkg/client/listers/kubebenchjob/v1alpha1/kubebenchjob.go:22:2: missing go.sum entry for module providing package k8s.io/apimachinery/pkg/labels (imported by github.com/liayan/kubebench/controller/pkg/client/listers/kubebenchjob/v1alpha1); to add:
+	go get github.com/liayan/kubebench/controller/pkg/client/listers/kubebenchjob/v1alpha1
+../../../pkg/util/resource.go:22:2: missing go.sum entry for module providing package k8s.io/apimachinery/pkg/apis/meta/v1/unstructured (imported by github.com/liayan/kubebench/controller/pkg/util); to add:
+	go get github.com/liayan/kubebench/controller/pkg/util
+../../../pkg/util/resource.go:23:2: missing go.sum entry for module providing package k8s.io/apimachinery/pkg/util/yaml (imported by github.com/liayan/kubebench/controller/pkg/util); to add:
+	go get github.com/liayan/kubebench/controller/pkg/util
+../../../pkg/util/proxy.go:13:2: missing go.sum entry for module providing package k8s.io/client-go/util/workqueue (imported by github.com/liayan/kubebench/controller/pkg/controller/kubebenchjob/v1alpha1); to add:
+	go get github.com/liayan/kubebench/controller/pkg/controller/kubebenchjob/v1alpha1
+../../../pkg/controller/kubebenchjob/v1alpha1/controller.go:15:2: missing go.sum entry for module providing package k8s.io/apimachinery/pkg/util/wait (imported by github.com/liayan/kubebench/controller/pkg/controller/kubebenchjob/v1alpha1); to add:
+	go get github.com/liayan/kubebench/controller/pkg/controller/kubebenchjob/v1alpha1

@@ -19,7 +19,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/kubeflow/kubebench/controller/cmd/reporter/app"
+	"github.com/liayan/kubebench/controller/cmd/reporter/app"
 )
 
 func main() {

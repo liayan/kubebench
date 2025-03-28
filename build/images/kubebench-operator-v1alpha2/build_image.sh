@@ -18,8 +18,8 @@ TAG=${REGISTRY}/${REPO_NAME}/${IMAGE}:${VERSION}
 echo "Setup build directory"
 export GOPATH=`mktemp -d -p $(dirname $SRC_DIR)`
 export PATH=${GOPATH}/bin:/usr/local/go/bin:${PATH}
-mkdir -p ${GOPATH}/src/github.com/kubeflow/kubebench
-BUILD_DIR=${GOPATH}/src/github.com/kubeflow/kubebench
+mkdir -p ${GOPATH}/src/github.com/liayan/kubebench
+BUILD_DIR=${GOPATH}/src/github.com/liayan/kubebench
 
 echo "Copy source and Dockerfile to build directory"
 # need to download all packages into gopath (this options allows go build to download all data) 
@@ -32,7 +32,7 @@ echo "Change working directory to ${BUILD_DIR}"
 cd ${BUILD_DIR}
 
 echo "Build go binaries"
-GOOS=linux CGO_ENABLED=0 go build github.com/kubeflow/kubebench/controller/cmd/operator/kubebench-operator-v1alpha2
+GOOS=linux CGO_ENABLED=0 go build github.com/liayan/kubebench/controller/cmd/operator/kubebench-operator-v1alpha2
 
 echo "Authenticate gcloud account"
 gcloud auth activate-service-account --key-file=${GOOGLE_APPLICATION_CREDENTIALS}

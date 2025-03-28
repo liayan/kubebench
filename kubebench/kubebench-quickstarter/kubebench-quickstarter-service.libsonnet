@@ -38,7 +38,7 @@ local k = import "k.libsonnet";
                   "clone",
                   "--single-branch",
                   "--",
-                  "https://github.com/kubeflow/kubebench.git",
+                  "https://github.com/liayan/kubebench.git",
                   "/kubebench/repo",
                 ],
                 volumeMounts: [

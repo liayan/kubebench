@@ -17,11 +17,11 @@
 package fake
 
 import (
-	clientset "github.com/kubeflow/kubebench/controller/pkg/client/clientset/versioned"
-	kubeflowv1alpha1 "github.com/kubeflow/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1"
-	fakekubeflowv1alpha1 "github.com/kubeflow/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1/fake"
-	kubeflowv1alpha2 "github.com/kubeflow/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha2"
-	fakekubeflowv1alpha2 "github.com/kubeflow/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha2/fake"
+	clientset "github.com/liayan/kubebench/controller/pkg/client/clientset/versioned"
+	kubeflowv1alpha1 "github.com/liayan/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1"
+	fakekubeflowv1alpha1 "github.com/liayan/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1/fake"
+	kubeflowv1alpha2 "github.com/liayan/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha2"
+	fakekubeflowv1alpha2 "github.com/liayan/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha2/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

@@ -5,11 +5,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	kubeclient "github.com/kubeflow/kubebench/controller/pkg/client"
-	controllerv1alpha1 "github.com/kubeflow/kubebench/controller/pkg/controller/kubebenchjob/v1alpha1"
+	kubeclient "github.com/liayan/kubebench/controller/pkg/client"
+	controllerv1alpha1 "github.com/liayan/kubebench/controller/pkg/controller/kubebenchjob/v1alpha1"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/kubeflow/kubebench/controller/pkg/util"
+	"github.com/liayan/kubebench/controller/pkg/util"
 )
 
 func main() {

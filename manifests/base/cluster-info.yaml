@@ -1,0 +1,8 @@
+# cluster-info.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cluster-info
+  namespace: kubeflow
+data:
+  clusterDomain: cluster.local  # Replace with your cluster's domain

@@ -4,7 +4,7 @@ KB_VERSION=${KB_VERSION:-master}
 KB_ENV=${KB_ENV:-default}
 K8S_NAMESPACE=`ks env describe ${KB_ENV} | grep namespace | awk '{print $2}'`
 
-ks registry add kubebench github.com/kubeflow/kubebench/tree/${KB_VERSION}/kubebench
+ks registry add kubebench github.com/liayan/kubebench/tree/${KB_VERSION}/kubebench
 ks pkg install kubebench/kubebench-quickstarter@${KB_VERSION}
 ks pkg install kubebench/kubebench-examples@${KB_VERSION}
 

@@ -4,5 +4,25 @@ bases:
 - ../../base
 resources:
 - virtual-service.yaml
+
+vars:
+  - name: namespace
+    objref:
+      apiVersion: v1
+      kind: ConfigMap
+      name: parameters
+      namespace: kubebench-operator  # Ensure this is the correct namespace
+    fieldref:
+      fieldPath: data.namespace
+
+  - name: clusterDomain
+    objref:
+      apiVersion: v1
+      kind: ConfigMap
+      name: parameters
+      namespace: kubebench-operator  # Ensure this is the correct namespace
+    fieldref:
+      fieldPath: data.clusterDomain
+  
 configurations:
 - params.yaml

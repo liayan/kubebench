@@ -23,8 +23,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer/json"
 	"k8s.io/apimachinery/pkg/util/yaml"
 
-	kbjobv1alpha2 "github.com/kubeflow/kubebench/controller/pkg/apis/kubebenchjob/v1alpha2"
-	kbworkflow "github.com/kubeflow/kubebench/controller/pkg/workflow"
+	kbjobv1alpha2 "github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha2"
+	kbworkflow "github.com/liayan/kubebench/controller/pkg/workflow"
 )
 
 // Run executes the workflow builder

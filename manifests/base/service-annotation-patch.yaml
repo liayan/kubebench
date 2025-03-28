@@ -1,0 +1,12 @@
+# service-annotation-patch.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: kubebench-service  # Match your Service's metadata.name
+  annotations:
+    getambassador.io/config: |
+      apiVersion: ambassador/v2
+      kind: Mapping
+      name: kubebench-mapping
+      prefix: /kubebench/
+      service: kubebench-operator:80

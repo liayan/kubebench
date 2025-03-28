@@ -85,7 +85,7 @@ Once the result file is available, the Kubebench reporter will automatically pic
 The Kubebench jobs can be configured through Ksonnet. To create a Ksonnet component, do the followings in your Ksonnet app with an existing Kubeflow installation.
 
 ```bash
-ks pkg install kubeflow/kubebench
+ks pkg install liayan/kubebench
 ks generate kubebench-job <JOB_NAME>
 ```
 

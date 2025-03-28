@@ -24,8 +24,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/yaml"
 	"k8s.io/client-go/rest"
 
-	"github.com/kubeflow/kubebench/controller/pkg/resource/client"
-	"github.com/kubeflow/kubebench/controller/pkg/resource/common"
+	"github.com/liayan/kubebench/controller/pkg/resource/client"
+	"github.com/liayan/kubebench/controller/pkg/resource/common"
 )
 
 // ResourceManager applies high level actions to resources

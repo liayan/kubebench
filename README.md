@@ -27,7 +27,7 @@ NOTE: the quick start guide serves as a demo that helps you quickly go through a
     export KB_VERSION=master
     export KB_ENV=default
 
-    curl https://raw.githubusercontent.com/kubeflow/kubebench/master/scripts/install_quickstarter.sh | bash
+    curl https://raw.githubusercontent.com/liayan/kubebench/master/scripts/install_quickstarter.sh | bash
     ```
 
   - View the Kubebench directory contents
@@ -51,7 +51,7 @@ NOTE: the quick start guide serves as a demo that helps you quickly go through a
     ```bash
     JOB_NAME="my-benchmark"
 
-    ks pkg install kubeflow/kubebench@${KB_VERSION}
+    ks pkg install liayan/kubebench@${KB_VERSION}
     ks generate kubebench-job ${JOB_NAME}
 
     ks apply ${KB_ENV} -c ${JOB_NAME}
@@ -82,7 +82,7 @@ NOTE: the quick start guide serves as a demo that helps you quickly go through a
   - Uninstall quickstarter
 
     ```bash
-    curl https://raw.githubusercontent.com/kubeflow/kubebench/master/scripts/uninstall_quickstarter.sh | bash
+    curl https://raw.githubusercontent.com/liayan/kubebench/master/scripts/uninstall_quickstarter.sh | bash
     ```
 
 ## Other Examples

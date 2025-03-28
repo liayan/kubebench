@@ -1,0 +1,12 @@
+# deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kubebench-dashboard
+spec:
+  template:
+    spec:
+      serviceAccountName: kubebench-dashboard  # 关联 SA
+      containers:
+      - name: app
+        image: kubebench-dashboard:latest

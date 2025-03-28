@@ -1,7 +1,7 @@
 FROM golang
 
-ADD . /go/src/github.com/kubeflow/kubebench/dashboard
-RUN go install github.com/kubeflow/kubebench/dashboard
+ADD . /go/src/github.com/liayan/kubebench/dashboard
+RUN go build github.com/liayan/kubebench/dashboard
 
-ENTRYPOINT /go/bin/dashboard
+ENTRYPOINT ./dashboard
 EXPOSE 9303

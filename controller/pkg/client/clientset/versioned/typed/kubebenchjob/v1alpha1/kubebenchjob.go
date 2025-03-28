@@ -17,8 +17,8 @@
 package v1alpha1
 
 import (
-	v1alpha1 "github.com/kubeflow/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1"
-	scheme "github.com/kubeflow/kubebench/controller/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1"
+	scheme "github.com/liayan/kubebench/controller/pkg/client/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

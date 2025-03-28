@@ -18,7 +18,7 @@ import (
 	"flag"
 	"os"
 
-	"github.com/kubeflow/kubebench/controller/cmd/operator/kubebench-operator-v1alpha2/app"
+	"github.com/liayan/kubebench/controller/cmd/operator/kubebench-operator-v1alpha2/app"
 	log "github.com/sirupsen/logrus"
 )
 

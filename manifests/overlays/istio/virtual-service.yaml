@@ -15,6 +15,6 @@ spec:
       uri: /dashboard/
     route:
     - destination:
-        host: kubebench-dashboard.$(namespace).svc.$(clusterDomain)
+        host: kubebench-dashboard.kubebench-operator.svc.cluster.local
         port:
           number: 80

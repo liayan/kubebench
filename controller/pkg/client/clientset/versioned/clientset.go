@@ -17,8 +17,8 @@
 package versioned
 
 import (
-	kubeflowv1alpha1 "github.com/kubeflow/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1"
-	kubeflowv1alpha2 "github.com/kubeflow/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha2"
+	kubeflowv1alpha1 "github.com/liayan/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha1"
+	kubeflowv1alpha2 "github.com/liayan/kubebench/controller/pkg/client/clientset/versioned/typed/kubebenchjob/v1alpha2"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

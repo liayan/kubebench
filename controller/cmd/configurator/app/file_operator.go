@@ -22,7 +22,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/kubeflow/kubebench/controller/pkg/constants"
+	"github.com/liayan/kubebench/controller/pkg/constants"
 )
 
 type FileOperatorInterface interface {

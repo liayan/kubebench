@@ -1,3 +1,9 @@
-varReference:
-- path: spec/http/route/destination/host
-  kind: VirtualService
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: parameters
+  namespace: kubebench-operator  # Make sure this is the correct namespace
+data:
+  namespace: kubebench-operator  # This field should be used in your vars section
+  clusterDomain: cluster.local  # This is the field you're trying to reference
+

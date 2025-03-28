@@ -22,10 +22,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/kubeflow/kubebench/controller/pkg/constants"
-	"github.com/kubeflow/kubebench/controller/pkg/workflowagent/configurator/common"
-	"github.com/kubeflow/kubebench/controller/pkg/workflowagent/configurator/manifestgen"
-	"github.com/kubeflow/kubebench/controller/pkg/workflowagent/configurator/manifestmod"
+	"github.com/liayan/kubebench/controller/pkg/constants"
+	"github.com/liayan/kubebench/controller/pkg/workflowagent/configurator/common"
+	"github.com/liayan/kubebench/controller/pkg/workflowagent/configurator/manifestgen"
+	"github.com/liayan/kubebench/controller/pkg/workflowagent/configurator/manifestmod"
 )
 
 type Configurator struct {

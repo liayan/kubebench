@@ -49,7 +49,7 @@ spec:
             ksonnet: # optional, more types in the future
               prototype: kubebench-example-tfcnn
               package: kubebench-examples
-              registry: github.com/kubeflow/kubebench/tree/master/kubebench
+              registry: github.com/liayan/kubebench/tree/master/kubebench
         manifestParameters:
           valueFrom:
             path: abc/def/ghi.yaml
@@ -91,4 +91,4 @@ kubectl apply -f examples/cluster-role.yaml
 
 ## Development
 
-For the information on developing visit: [developer guide](https://github.com/kubeflow/kubebench/controller/kubebench-operator/DEVELOPER.md)
+For the information on developing visit: [developer guide](https://github.com/liayan/kubebench/controller/kubebench-operator/DEVELOPER.md)

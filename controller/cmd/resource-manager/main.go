@@ -19,7 +19,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/kubeflow/kubebench/controller/cmd/resource-manager/app"
+	"github.com/liayan/kubebench/controller/cmd/resource-manager/app"
 	log "github.com/sirupsen/logrus"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"

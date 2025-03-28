@@ -18,8 +18,8 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/kubeflow/kubebench/controller/pkg/apis/kubebenchjob/v1alpha2"
-	"github.com/kubeflow/kubebench/controller/pkg/workflowagent/configurator/common"
+	"github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha2"
+	"github.com/liayan/kubebench/controller/pkg/workflowagent/configurator/common"
 )
 
 var newManifestGenFuncs = map[string]func(interface{}) ManifestGeneratorInterface{

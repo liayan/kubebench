@@ -20,7 +20,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/kubeflow/kubebench/controller/cmd/cli/kubebench-workflow-builder/app"
+	"github.com/liayan/kubebench/controller/cmd/cli/kubebench-workflow-builder/app"
 )
 
 func main() {

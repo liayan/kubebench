@@ -17,9 +17,9 @@
 package kubeflow
 
 import (
-	internalinterfaces "github.com/kubeflow/kubebench/controller/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/kubeflow/kubebench/controller/pkg/client/informers/externalversions/kubebenchjob/v1alpha1"
-	v1alpha2 "github.com/kubeflow/kubebench/controller/pkg/client/informers/externalversions/kubebenchjob/v1alpha2"
+	internalinterfaces "github.com/liayan/kubebench/controller/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/liayan/kubebench/controller/pkg/client/informers/externalversions/kubebenchjob/v1alpha1"
+	v1alpha2 "github.com/liayan/kubebench/controller/pkg/client/informers/externalversions/kubebenchjob/v1alpha2"
 )
 
 // Interface provides access to each of this group's versions.

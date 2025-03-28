@@ -17,8 +17,8 @@
 package scheme
 
 import (
-	kubeflowv1alpha1 "github.com/kubeflow/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1"
-	kubeflowv1alpha2 "github.com/kubeflow/kubebench/controller/pkg/apis/kubebenchjob/v1alpha2"
+	kubeflowv1alpha1 "github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha1"
+	kubeflowv1alpha2 "github.com/liayan/kubebench/controller/pkg/apis/kubebenchjob/v1alpha2"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

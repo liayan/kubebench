@@ -20,7 +20,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/kubeflow/kubebench/controller/cmd/configurator/app"
+	"github.com/liayan/kubebench/controller/cmd/configurator/app"
 )
 
 func run(opt *app.AppOption) error {

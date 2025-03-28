@@ -10,7 +10,7 @@ You need to use [Ambassador](https://github.com/datawire/ambassador) to access G
 ```
 export KB_VERSION=master
 export KF_ENV=default
-curl https://raw.githubusercontent.com/kubeflow/kubebench/master/scripts/install_monitoring.sh | bash
+curl https://raw.githubusercontent.com/liayan/kubebench/master/scripts/install_monitoring.sh | bash
 ```
 
 ## View results 
@@ -22,5 +22,5 @@ You can check Prometheus service port ```kubectl get svc --namespace ${NAMESPACE
 
 ```
 export KF_ENV=default
-curl https://raw.githubusercontent.com/kubeflow/kubebench/master/scripts/unistall_monitoring.sh | bash
+curl https://raw.githubusercontent.com/liayan/kubebench/master/scripts/unistall_monitoring.sh | bash
 ```

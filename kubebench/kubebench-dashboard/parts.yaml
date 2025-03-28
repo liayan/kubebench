@@ -16,10 +16,10 @@
    ],
    "repository": {
       "type": "git",
-      "url": "https://github.com/kubeflow/kubebench"
+      "url": "https://github.com/liayan/kubebench"
    },
    "bugs": {
-      "url": "https://github.com/kubeflow/kubebench/issues"
+      "url": "https://github.com/liayan/kubebench/issues"
    },
    "keywords": [
       "kubeflow",

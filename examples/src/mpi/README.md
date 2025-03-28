@@ -24,7 +24,7 @@ This tutorial will show an example to launching OpenMPI benchmark job on [Kubefl
 
 - Setup NFS used by Kubebench
 
-  Please check [page](https://github.com/kubeflow/kubebench/blob/master/README.md#installation) to install Kubebench quick-starter package
+  Please check [page](https://github.com/liayan/kubebench/blob/master/README.md#installation) to install Kubebench quick-starter package
 
 - Setup required components
   ```
@@ -32,7 +32,7 @@ This tutorial will show an example to launching OpenMPI benchmark job on [Kubefl
   ks pkg install kubeflow/common@master
   ks pkg install kubeflow/argo@master
   ks pkg install kubeflow/mpi-job@master
-  ks pkg install kubeflow/kubebench@master
+  ks pkg install liayan/kubebench@master
   
   # Generate Manifests
   ks generate argo argo
